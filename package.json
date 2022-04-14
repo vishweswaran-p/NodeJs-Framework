@@ -11,7 +11,7 @@
     "coverage": "nyc --reporter=html --report-dir ./test/code_coverage mocha --recursive ./test/**/*.test.js --compilers js:babel-core/register --timeout 3000"
   },
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^3.2.2",
     "aws-sdk": "^2.476.0",
     "bcrypt-nodejs": "0.0.3",
     "cookie-parser": "~1.4.3",
